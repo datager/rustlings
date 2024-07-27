@@ -9,6 +9,13 @@
 // entire order is reduced to only 1 rustbuck!
 
 // TODO: Write a function that calculates the price of an order of apples given
+fn calculate_price_of_apples(cnt: i32) -> i32 {
+    if cnt > 40 {
+        cnt
+    } else {
+        cnt * 2
+    }
+}
 // the quantity bought.
 // fn calculate_price_of_apples(???) -> ??? { ??? }
 
